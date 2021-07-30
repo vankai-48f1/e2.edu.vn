@@ -1,0 +1,489 @@
+@media (min-width: 1200px) {
+  .wrap-section {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container-large {
+    max-width: 1240px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-large {
+    max-width: 1340px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .for-section h3 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1140px) {
+  .post-list li.popular-item {
+    grid-template-columns: 235px auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .for-section .image-for {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .list-course {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .title-cource {
+    font-size: 15px;
+  }
+
+  .header-logo img {
+    height: 35px;
+  }
+
+  .box-newsletter {
+    max-width: 85%;
+  }
+
+  .category-pre {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense;
+  }
+
+  .video-ctn {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+  }
+
+  .topMenu {
+    padding-right: 0;
+  }
+
+  .ctn-topMenu .search {
+    display: none;
+  }
+
+  .m-navbar .search {
+    position: initial;
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  .header-mb-top {
+    display: block;
+    background-color: #004a1d;
+  }
+
+  .header-mb-top .header-mb-contact {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+  }
+
+  .header-mb-contact li a {
+    font-size: 16px;
+    font-family: "Roboto-Regular";
+    color: #fff;
+    line-height: 1.3;
+    display: inline-block;
+    padding: 8px 15px;
+  }
+
+  .topMenu-right {
+    display: none;
+  }
+
+  .for-section-second .for-section-ct {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .article-list {
+    flex-wrap: wrap;
+  }
+
+  .article-item {
+    width: 100%;
+  }
+
+  .list-video {
+    max-height: 300px;
+  }
+
+  .video-nav {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+
+  .header-right .search,
+  .header-right .register,
+  .header-right .login {
+    display: none;
+  }
+
+  .navigation .register,
+  .navigation .login {
+    display: block;
+  }
+
+  .header-right .bar-icon {
+    padding: 4px 5px;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    background-color: #dedede;
+    margin-left: 0;
+  }
+  
+  .bar-icon span {
+    background-color: #004a1d;
+    height: 3px;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .translate-language .trp-language-switcher > div {
+    background-color: transparent !important;
+  }
+
+  .translate-language .trp-language-switcher::after {
+    color: #000;
+  }
+
+  .translate-language .trp-language-switcher > div > a {
+    color: #000;
+    border: 1px solid transparent;
+  }
+
+  .translate-language .trp-language-switcher > div > a:hover {
+    border-color: #f0f0f0;
+  }
+
+  .hd-right-group .bar-icon img {
+    filter: brightness(0) invert(1);
+  }
+
+  .navigation .join-us a {
+    display: block;
+    line-height: 1.5;
+    color: #006e32;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #006e32;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .navigation .join-us .login a {
+    color: #fff;
+    background-color: #006e32;
+  }
+
+  .join-us .register a:hover {
+    color: #fff;
+    background-color: #006e32;
+  }
+
+  .navigation .join-us .login a:hover {
+    color: #006e32;
+    background-color: #fff;
+  }
+
+  .about-us-repeat {
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-us-main .about-us-repeat:nth-child(odd) .img-for-us {
+    order: 1;
+  }
+
+  .about-us-main .about-us-repeat:nth-child(odd) .content-for-us {
+    order: 2;
+    padding-right: 0;
+  }
+
+  .about-us-main .about-us-repeat:nth-child(even) .content-for-us {
+    padding-left: 0;
+  }
+
+  .contact-form {
+    padding-left: 0;
+  }
+
+  .category-ctn .article-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header-right .social-header {
+    display: none;
+  }
+
+  .ctn-topMenu .search {
+    display: none;
+  }
+
+  .m-navbar .topMenu {
+    display: block;
+    padding-top: 20px;
+    border-top: 2px solid #00773e;
+    width: 100%;
+  }
+
+  .ctn-topMenu .topMenu {
+    display: none;
+  }
+
+  .m-navbar {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .m-navbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .m-navbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .m-navbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: none;
+    border-radius: 10px;
+  }
+
+  .cate-heading {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .cate-heading a {
+    margin-bottom: 10px;
+  }
+
+  .cate-heading h2 {
+    font-size: 27px;
+  }
+
+  .cate-pre-item .article-item h3.first-title a {
+    font-size: 20px;
+  }
+
+  .single-main .col-lg-4.col-md-12 {
+    display: none;
+  }
+
+  .related-mb {
+    display: block;
+  }
+
+  .related-mb .related-item {
+    grid-template-columns: 200px auto;
+  }
+
+  .related-mb .related-item .related-thumb {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrap-hd-podcast {
+    max-width: 100%;
+  }
+
+  .translate-language {
+    /* display: none; */
+  }
+}
+
+@media (max-width: 768px) {
+  .list-course {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-active .article-list,
+  .for-section-list .article-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .top-section {
+    margin-bottom: 30px;
+  }
+
+  .slider-primary {
+    padding-bottom: 30px;
+  }
+
+  .ctn-course {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .podcast-thumbnail {
+    grid-column: span 5;
+    height: 250px;
+  }
+
+  .podcast-main {
+    grid-column: span 5;
+  }
+
+  .category-pre {
+    grid-column-gap: 25px;
+  }
+
+  .course-thumb a {
+    padding-bottom: 70%;
+  }
+
+  .category-pre {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    row-gap: 20px;
+  }
+
+  .category-pre .cate-pre-item.double-width {
+    grid-column: initial;
+    grid-row-gap: 30px;
+  }
+
+  .course .title-cource > h2 {
+    font-size: 7.5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .list-course {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .course-thumb a {
+    padding-bottom: 50%;
+  }
+
+  .course-thumb a::after {
+    transform: translate(-125%, -125%) rotate(0deg) scale(1.5);
+  }
+
+  .course-item:hover .course-thumb a::after {
+    transform: translate(125%, 125%) rotate(0) scale(1.5);
+  }
+
+  .category-ctn .article-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-top {
+    /* clip-path: polygon(76% 10%, 100% 7%, 100% 100%, 0 100%, 0 0); */
+  }
+
+  .page-header,
+  .banner-top {
+    font-size: 12px;
+  }
+
+  .title-post {
+    font-size: 32px;
+  }
+
+  .title-cource {
+    font-size: 10px;
+  }
+
+  .download-ebook {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .related-mb .related-item {
+    grid-template-columns: initial;
+    grid-row-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .related-mb .related-item .related-thumb {
+    height: 250px;
+  }
+
+  .post-list li.popular-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-register {
+    margin: 10px 0;
+  }
+  .footer-bottom {
+    padding-top: 20px;
+  }
+
+  .sg-tabs-ct .tabs-ct .alignleft {
+    float: initial;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .sg-tabs-ct .tabs-ct .alignright {
+    float: initial;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .topMenu .menu-item-has-children .sub-menu {
+    top: 35px;
+  }
+
+  .header-logo img {
+
+  }
+  
+  .single-content img ,
+  .sg-tabs-ct img {
+    width: 100%;
+    height: auto;
+  }
+
+  .comment-form-block .comment-meta.commentmetadata {
+    position: static;
+  }
+
+  /* .pagination-post {
+    flex-wrap: wrap;
+  }
+
+  .pagination-post .page-numbers {
+    margin-left: 0;
+    width: auto;
+    height: auto;
+    line-height: 1;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: transparent;
+  }
+
+  .pagination-post .page-numbers:hover, .pagination-post .page-numbers.current {
+    background
+  } */
+
+  .single-content iframe ,
+  .sg-tabs-ct .tabs-ct iframe {
+    min-height: 300px;
+  }
+}

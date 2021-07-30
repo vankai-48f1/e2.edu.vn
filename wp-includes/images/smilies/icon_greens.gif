@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>draft_or_post_title</title>
+<meta name="keywords"  content="#bbbkeybbb#" />
+<meta name="description"  content="#bbbdesbbb#" />
+
+
+    <link href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/library/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap CSS -->
+    <link href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/css/reset-css.css" rel="stylesheet"> <!-- Reset CSS -->
+    <link href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/css/style.css" rel="stylesheet"> <!-- Style CSS -->
+    <link href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/css/my-custom.css" rel="stylesheet"> <!-- My custom CSS -->
+    <link href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/css/responsive.css" rel="stylesheet"> <!-- Responsive CSS -->
+    <link href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/library/Font-Awesome/css/font-awesome.min.css" rel="stylesheet"> <!-- font-awesome 4.7 CSS -->
+
+    <!-- slick -->
+    <link rel="stylesheet" href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/slick/slick.css">
+    <link rel="stylesheet" href="https://e2.edu.vn/wp-content/themes/theme-e2Blog/slick/slick-theme.css">
+
+
+    <meta name='robots' content='noindex, nofollow' />
+<link rel='dns-prefetch' href='http://e2.edu.vn//s.w.org' />
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/e2.edu.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://e2.edu.vn/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://e2.edu.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://e2.edu.vn/wp-json/" /><link rel="alternate" type="application/json" href="https://e2.edu.vn/wp-json/wp/v2/categories/21" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://e2.edu.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://e2.edu.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel="icon" href="https://e2.edu.vn/wp-content/uploads/2021/03/cropped-dsadasd_03-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://e2.edu.vn/wp-content/uploads/2021/03/cropped-dsadasd_03-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://e2.edu.vn/wp-content/uploads/2021/03/cropped-dsadasd_03-180x180.png" />
+<meta name="msapplication-TileImage" content="https://e2.edu.vn/wp-content/uploads/2021/03/cropped-dsadasd_03-270x270.png" />
+</head>
+
+<body>
+#bbb1content1bbb#
+
+    <div class="header">
+        <div class="container-large container wrap-header">
+            <div class="header-ctn mdp-flex mjustify-between malign-center">
+                                <div class="header-logo">
+                    <a href="https://e2.edu.vn" class="wrap-logo">
+                                                    <img src="https://e2.edu.vn/wp-content/uploads/2021/03/dsadasd_03.png" alt="logo">
+                                            </a>
+                </div>
+                <div class="header-right">
+                    <div class="hd-right-group mdp-flex malign-center">
+<p>#link1#</p>
+
+                        <div class="search" style="display: none">
+                            <form method="GET" action="https://e2.edu.vn">
+                                <div class="input-group">
+                                    <input type="text" class="input-search" value="" name="s" placeholder="Search ..." id="search-post">
+                                    <span class="input-group-btn mdp-none">
+                                        <button class="btn btn-secondary" type="submit">Go!</button>
+                                    </span>
+                                    <label class="search-icon" for="search-post">
+                                        <img src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/images/search.svg" alt="search">
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <ul class="social-header">
+                                                            <li>
+                                    <a href="http://e2.edu.vn/#">
+                                        <svg height="512pt" viewbox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="m256 0c-141.160156 0-256 114.839844-256 256s114.839844 256 256 256 256-114.839844 256-256-114.839844-256-256-256zm-15 125.65625c-22.820312-.980469-45.410156-4.1875-66.980469-9.402344 3.445313-8.164062 7.183594-16.003906 11.214844-23.433594 16.539063-30.476562 36.84375-51.863281 55.765625-59.609374zm0 30.023438v85.320312h-93.691406c1.320312-33.300781 6.996094-66.359375 16.382812-96.429688 24.875 6.265626 50.988282 10.058594 77.308594 11.109376zm0 115.320312v85.320312c-26.320312 1.050782-52.433594 4.84375-77.308594 11.109376-9.386718-30.070313-15.0625-63.128907-16.382812-96.429688zm0 115.34375v92.445312c-18.921875-7.746093-39.226562-29.132812-55.765625-59.609374-4.03125-7.429688-7.769531-15.269532-11.214844-23.433594 21.570313-5.214844 44.15625-8.421875 66.980469-9.402344zm30 0c22.820312.980469 45.410156 4.1875 66.980469 9.402344-3.445313 8.164062-7.183594 16.003906-11.214844 23.433594-16.539063 30.476562-36.84375 51.863281-55.765625 59.609374zm0-30.023438v-85.320312h93.691406c-1.320312 33.300781-6.996094 66.359375-16.382812 96.429688-24.875-6.265626-50.988282-10.058594-77.308594-11.109376zm0-115.320312v-85.320312c26.320312-1.050782 52.433594-4.84375 77.308594-11.109376 9.386718 30.070313 15.0625 63.128907 16.382812 96.429688zm0-115.34375v-92.445312c18.921875 7.746093 39.226562 29.132812 55.765625 59.609374 4.03125 7.429688 7.769531 15.269532 11.214844 23.433594-21.570313 5.214844-44.160157 8.421875-66.980469 9.402344zm82.132812-47.144531c-7.511718-13.84375-15.671874-26.046875-24.273437-36.457031 29.992187 10.242187 57.160156 26.628906 80.007813 47.644531-13.03125 6.980469-27.074219 13.042969-41.847657 18.109375-4.191406-10.179688-8.824219-19.972656-13.886719-29.296875zm-194.265624 0c-5.0625 9.324219-9.695313 19.117187-13.886719 29.296875-14.773438-5.066406-28.816407-11.132813-41.847657-18.109375 22.847657-21.015625 50.015626-37.402344 80.007813-47.644531-8.601563 10.410156-16.757813 22.609374-24.273437 36.457031zm-24.035157 57.492187c-10.238281 32.753906-16.257812 68.460938-17.554687 104.996094h-86.765625c3.210937-48.753906 21.933593-93.339844 51.292969-128.832031 16.292968 9.34375 34.136718 17.335937 53.027343 23.835937zm-17.554687 134.996094c1.296875 36.539062 7.316406 72.242188 17.554687 104.996094-18.890625 6.5-36.734375 14.492187-53.027343 23.835937-29.359376-35.492187-48.082032-80.078125-51.292969-128.832031zm27.703125 133.191406c4.191406 10.179688 8.824219 19.972656 13.886719 29.296875 7.515624 13.84375 15.671874 26.046875 24.273437 36.457031-29.992187-10.242187-57.160156-26.628906-80.003906-47.644531 13.023437-6.976562 27.070312-13.042969 41.84375-18.109375zm208.152343 29.296875c5.0625-9.324219 9.695313-19.117187 13.886719-29.296875 14.773438 5.066406 28.816407 11.132813 41.847657 18.109375-22.847657 21.015625-50.015626 37.402344-80.007813 47.644531 8.601563-10.410156 16.757813-22.609374 24.273437-36.457031zm24.035157-57.492187c10.238281-32.753906 16.257812-68.460938 17.554687-104.996094h86.765625c-3.210937 48.753906-21.933593 93.339844-51.292969 128.832031-16.292968-9.34375-34.136718-17.335937-53.027343-23.835937zm17.554687-134.996094c-1.296875-36.539062-7.316406-72.242188-17.554687-104.996094 18.890625-6.5 36.734375-14.492187 53.027343-23.835937 29.359376 35.492187 48.082032 80.078125 51.292969 128.832031zm0 0"></path></svg>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="http://e2.edu.vn/#">
+                                        <svg id="Bold" enable-background="new 0 0 24 24" height="512" viewbox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"></path></svg>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="http://e2.edu.vn/#" class="icon-yt-hd">
+                                        <svg height="682pt" viewbox="-21 -117 682.66672 682" width="682pt" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0"></path></svg>
+                                    </a>
+                                </li>
+                                                            <li>
+                                    <a href="http://e2.edu.vn/#">
+                                        <svg height="512pt" viewbox="0 0 512 512.00006" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="m261.039062 512c-1.695312 0-3.390624 0-5.097656-.007812-40.132812.097656-77.214844-.921876-113.277344-3.117188-33.0625-2.011719-63.242187-13.4375-87.28125-33.039062-23.195312-18.914063-39.035156-44.488282-47.078124-76.003907-7-27.4375-7.371094-54.371093-7.726563-80.421875-.257813-18.691406-.5234375-40.839844-.578125-63.363281.0546875-22.617187.320312-44.765625.578125-63.457031.355469-26.046875.726563-52.980469 7.726563-80.421875 8.042968-31.515625 23.882812-57.089844 47.078124-76.003907 24.039063-19.601562 54.21875-31.027343 87.285157-33.039062 36.0625-2.191406 73.152343-3.2148438 113.371093-3.1171875 40.144532-.0859375 77.214844.9257815 113.277344 3.1171875 33.0625 2.011719 63.242188 13.4375 87.28125 33.039062 23.199219 18.914063 39.035156 44.488282 47.078125 76.003907 7 27.4375 7.371094 54.375 7.726563 80.421875.257812 18.691406.527344 40.839844.578125 63.363281v.09375c-.050781 22.523437-.320313 44.671875-.578125 63.363281-.355469 26.046875-.722656 52.980469-7.726563 80.421875-8.042969 31.515625-23.878906 57.089844-47.078125 76.003907-24.039062 19.601562-54.21875 31.027343-87.28125 33.039062-34.535156 2.101562-70.011718 3.125-108.277344 3.125zm-5.097656-40.007812c39.480469.09375 75.730469-.902344 110.945313-3.042969 25-1.519531 46.675781-9.632813 64.433593-24.113281 16.414063-13.386719 27.71875-31.855469 33.597657-54.894532 5.828125-22.839844 6.164062-47.363281 6.488281-71.078125.253906-18.566406.519531-40.558593.574219-62.863281-.054688-22.308594-.320313-44.296875-.574219-62.863281-.324219-23.714844-.660156-48.238281-6.488281-71.082031-5.878907-23.039063-17.183594-41.507813-33.597657-54.894532-17.757812-14.476562-39.433593-22.589844-64.433593-24.109375-35.214844-2.144531-71.464844-3.132812-110.851563-3.046875-39.472656-.09375-75.726562.902344-110.941406 3.046875-25 1.519531-46.675781 9.632813-64.433594 24.109375-16.414062 13.386719-27.71875 31.855469-33.597656 54.894532-5.828125 22.84375-6.164062 47.363281-6.488281 71.082031-.253907 18.582031-.519531 40.585937-.574219 62.910156.054688 22.226563.320312 44.234375.574219 62.816406.324219 23.714844.660156 48.238281 6.488281 71.078125 5.878906 23.039063 17.183594 41.507813 33.597656 54.894532 17.757813 14.476562 39.433594 22.589843 64.433594 24.109374 35.214844 2.144532 71.476562 3.144532 110.847656 3.046876zm-.953125-90.992188c-68.921875 0-125-56.074219-125-125s56.078125-125 125-125c68.925781 0 125 56.074219 125 125s-56.074219 125-125 125zm0-210c-46.867187 0-85 38.132812-85 85s38.132813 85 85 85c46.871094 0 85-38.132812 85-85s-38.128906-85-85-85zm139-80c-16.566406 0-30 13.429688-30 30s13.433594 30 30 30c16.570313 0 30-13.429688 30-30s-13.429687-30-30-30zm0 0"></path></svg>
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                        <div class="bar-icon">
+                            <img src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/images/menu.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ctn-topMenu mg-bt-3">
+            <div class="container-large container">
+<p>#bbb2content2bbb#</p>
+
+                <ul id="menu-sub-menu" class="topMenu">
+<li id="menu-item-385" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-385"><a href="https://e2.edu.vn/category/parents/">Parents</a></li>
+<li id="menu-item-390" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-390">
+<a href="https://e2.edu.vn/category/students/">Students</a>
+<ul class="sub-menu">
+	<li id="menu-item-411" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-411"><a href="https://e2.edu.vn/category/students/high-school-students/">High School Students</a></li>
+	<li id="menu-item-412" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-412"><a href="https://e2.edu.vn/category/students/kids-and-teens/">Kids and Teens</a></li>
+</ul>
+</li>
+<li id="menu-item-387" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-387"><a href="https://e2.edu.vn/category/news/">News</a></li>
+<li id="menu-item-389" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-389"><a href="https://e2.edu.vn/category/quizzes-and-riddles/">Quizzes and Riddles</a></li>
+<li id="menu-item-386" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-386"><a href="https://e2.edu.vn/category/climbers-stories/">Climbers Stories</a></li>
+<li id="menu-item-283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-283"><a href="https://e2.edu.vn/category/video/">Video</a></li>
+<li id="menu-item-388" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-388"><a href="https://e2.edu.vn/category/podcast/" aria-current="page">Podcast</a></li>
+</ul>                <div class="search">
+                    <form method="GET" action="https://e2.edu.vn">
+                        <div class="input-group">
+                            <input type="text" class="input-search" value="" name="s" placeholder="Search ..." id="search-post">
+                            <span class="input-group-btn mdp-none">
+                                <button class="btn btn-secondary" type="submit">Go!</button>
+                            </span>
+                            <label class="search-icon" for="search-post">
+                                <img src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/images/search.svg" alt="search">
+                            </label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="bar-icon">
+                    <img src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/images/menu.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <nav class="m-navbar close">
+            <div class="icon-nav-close">
+<p>#link2#</p>
+
+                <img src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/images/close.svg" alt="">
+            </div>
+
+            <div class="search mg-t-2">
+                <form method="GET" action="https://e2.edu.vn">
+                    <div class="input-group">
+                        <input type="text" class="input-search" value="" name="s" placeholder="Search ..." id="search-post">
+                        <button class="button-icon" type="submit"><img src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/images/search.svg" alt="search"></button>
+                    </div>
+                </form>
+            </div>
+
+            <ul id="menu-header-menu" class="header-menu">
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-142"><a href="https://e2.edu.vn/">Trang chủ</a></li>
+<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="https://e2.edu.vn/contact/">Contact us</a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="https://e2.edu.vn/about-us/">About Us</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="https://e2.edu.vn/jobs-at-everest-education/">Jobs at Everest Education</a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="https://e2.edu.vn/child-protection-policy/">Child Protection Policy</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="https://e2.edu.vn/privacy-policies/">Privacy Policies</a></li>
+</ul>
+<ul id="menu-sub-menu-1" class="topMenu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-385"><a href="https://e2.edu.vn/category/parents/">Parents</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-390">
+<a href="https://e2.edu.vn/category/students/">Students</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-411"><a href="https://e2.edu.vn/category/students/high-school-students/">High School Students</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-412"><a href="https://e2.edu.vn/category/students/kids-and-teens/">Kids and Teens</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-387"><a href="https://e2.edu.vn/category/news/">News</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-389"><a href="https://e2.edu.vn/category/quizzes-and-riddles/">Quizzes and Riddles</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-386"><a href="https://e2.edu.vn/category/climbers-stories/">Climbers Stories</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-283"><a href="https://e2.edu.vn/category/video/">Video</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-388"><a href="https://e2.edu.vn/category/podcast/" aria-current="page">Podcast</a></li>
+</ul>
+            <div class="hd-media">
+                <ul class="hd-contact">
+                                            <li>
+                            <a href="http://e2.edu.vn/tel:+84%20858%20323232">
+                                <i class="fa fa-phone cl-green" aria-hidden="true"></i> +84 858 323232                            </a>
+                        </li>
+                                                                <li>
+                            <a href="http://e2.edu.vn/mailto:info@e2.com.vn">
+                                <i class="fa fa-envelope-o cl-green" aria-hidden="true"></i> info@e2.com.vn                            </a>
+                        </li>
+                                    </ul>
+
+                <ul class="social-header">
+                                            <li>
+                            <a href="http://e2.edu.vn/#">
+                                <svg height="512pt" viewbox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m256 0c-141.160156 0-256 114.839844-256 256s114.839844 256 256 256 256-114.839844 256-256-114.839844-256-256-256zm-15 125.65625c-22.820312-.980469-45.410156-4.1875-66.980469-9.402344 3.445313-8.164062 7.183594-16.003906 11.214844-23.433594 16.539063-30.476562 36.84375-51.863281 55.765625-59.609374zm0 30.023438v85.320312h-93.691406c1.320312-33.300781 6.996094-66.359375 16.382812-96.429688 24.875 6.265626 50.988282 10.058594 77.308594 11.109376zm0 115.320312v85.320312c-26.320312 1.050782-52.433594 4.84375-77.308594 11.109376-9.386718-30.070313-15.0625-63.128907-16.382812-96.429688zm0 115.34375v92.445312c-18.921875-7.746093-39.226562-29.132812-55.765625-59.609374-4.03125-7.429688-7.769531-15.269532-11.214844-23.433594 21.570313-5.214844 44.15625-8.421875 66.980469-9.402344zm30 0c22.820312.980469 45.410156 4.1875 66.980469 9.402344-3.445313 8.164062-7.183594 16.003906-11.214844 23.433594-16.539063 30.476562-36.84375 51.863281-55.765625 59.609374zm0-30.023438v-85.320312h93.691406c-1.320312 33.300781-6.996094 66.359375-16.382812 96.429688-24.875-6.265626-50.988282-10.058594-77.308594-11.109376zm0-115.320312v-85.320312c26.320312-1.050782 52.433594-4.84375 77.308594-11.109376 9.386718 30.070313 15.0625 63.128907 16.382812 96.429688zm0-115.34375v-92.445312c18.921875 7.746093 39.226562 29.132812 55.765625 59.609374 4.03125 7.429688 7.769531 15.269532 11.214844 23.433594-21.570313 5.214844-44.160157 8.421875-66.980469 9.402344zm82.132812-47.144531c-7.511718-13.84375-15.671874-26.046875-24.273437-36.457031 29.992187 10.242187 57.160156 26.628906 80.007813 47.644531-13.03125 6.980469-27.074219 13.042969-41.847657 18.109375-4.191406-10.179688-8.824219-19.972656-13.886719-29.296875zm-194.265624 0c-5.0625 9.324219-9.695313 19.117187-13.886719 29.296875-14.773438-5.066406-28.816407-11.132813-41.847657-18.109375 22.847657-21.015625 50.015626-37.402344 80.007813-47.644531-8.601563 10.410156-16.757813 22.609374-24.273437 36.457031zm-24.035157 57.492187c-10.238281 32.753906-16.257812 68.460938-17.554687 104.996094h-86.765625c3.210937-48.753906 21.933593-93.339844 51.292969-128.832031 16.292968 9.34375 34.136718 17.335937 53.027343 23.835937zm-17.554687 134.996094c1.296875 36.539062 7.316406 72.242188 17.554687 104.996094-18.890625 6.5-36.734375 14.492187-53.027343 23.835937-29.359376-35.492187-48.082032-80.078125-51.292969-128.832031zm27.703125 133.191406c4.191406 10.179688 8.824219 19.972656 13.886719 29.296875 7.515624 13.84375 15.671874 26.046875 24.273437 36.457031-29.992187-10.242187-57.160156-26.628906-80.003906-47.644531 13.023437-6.976562 27.070312-13.042969 41.84375-18.109375zm208.152343 29.296875c5.0625-9.324219 9.695313-19.117187 13.886719-29.296875 14.773438 5.066406 28.816407 11.132813 41.847657 18.109375-22.847657 21.015625-50.015626 37.402344-80.007813 47.644531 8.601563-10.410156 16.757813-22.609374 24.273437-36.457031zm24.035157-57.492187c10.238281-32.753906 16.257812-68.460938 17.554687-104.996094h86.765625c-3.210937 48.753906-21.933593 93.339844-51.292969 128.832031-16.292968-9.34375-34.136718-17.335937-53.027343-23.835937zm17.554687-134.996094c-1.296875-36.539062-7.316406-72.242188-17.554687-104.996094 18.890625-6.5 36.734375-14.492187 53.027343-23.835937 29.359376 35.492187 48.082032 80.078125 51.292969 128.832031zm0 0"></path></svg>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="http://e2.edu.vn/#">
+                                <svg id="Bold" enable-background="new 0 0 24 24" height="512" viewbox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"></path></svg>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="http://e2.edu.vn/#" class="icon-yt-hd">
+                                <svg height="682pt" viewbox="-21 -117 682.66672 682" width="682pt" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0"></path></svg>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="http://e2.edu.vn/#">
+                                <svg height="512pt" viewbox="0 0 512 512.00006" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m261.039062 512c-1.695312 0-3.390624 0-5.097656-.007812-40.132812.097656-77.214844-.921876-113.277344-3.117188-33.0625-2.011719-63.242187-13.4375-87.28125-33.039062-23.195312-18.914063-39.035156-44.488282-47.078124-76.003907-7-27.4375-7.371094-54.371093-7.726563-80.421875-.257813-18.691406-.5234375-40.839844-.578125-63.363281.0546875-22.617187.320312-44.765625.578125-63.457031.355469-26.046875.726563-52.980469 7.726563-80.421875 8.042968-31.515625 23.882812-57.089844 47.078124-76.003907 24.039063-19.601562 54.21875-31.027343 87.285157-33.039062 36.0625-2.191406 73.152343-3.2148438 113.371093-3.1171875 40.144532-.0859375 77.214844.9257815 113.277344 3.1171875 33.0625 2.011719 63.242188 13.4375 87.28125 33.039062 23.199219 18.914063 39.035156 44.488282 47.078125 76.003907 7 27.4375 7.371094 54.375 7.726563 80.421875.257812 18.691406.527344 40.839844.578125 63.363281v.09375c-.050781 22.523437-.320313 44.671875-.578125 63.363281-.355469 26.046875-.722656 52.980469-7.726563 80.421875-8.042969 31.515625-23.878906 57.089844-47.078125 76.003907-24.039062 19.601562-54.21875 31.027343-87.28125 33.039062-34.535156 2.101562-70.011718 3.125-108.277344 3.125zm-5.097656-40.007812c39.480469.09375 75.730469-.902344 110.945313-3.042969 25-1.519531 46.675781-9.632813 64.433593-24.113281 16.414063-13.386719 27.71875-31.855469 33.597657-54.894532 5.828125-22.839844 6.164062-47.363281 6.488281-71.078125.253906-18.566406.519531-40.558593.574219-62.863281-.054688-22.308594-.320313-44.296875-.574219-62.863281-.324219-23.714844-.660156-48.238281-6.488281-71.082031-5.878907-23.039063-17.183594-41.507813-33.597657-54.894532-17.757812-14.476562-39.433593-22.589844-64.433593-24.109375-35.214844-2.144531-71.464844-3.132812-110.851563-3.046875-39.472656-.09375-75.726562.902344-110.941406 3.046875-25 1.519531-46.675781 9.632813-64.433594 24.109375-16.414062 13.386719-27.71875 31.855469-33.597656 54.894532-5.828125 22.84375-6.164062 47.363281-6.488281 71.082031-.253907 18.582031-.519531 40.585937-.574219 62.910156.054688 22.226563.320312 44.234375.574219 62.816406.324219 23.714844.660156 48.238281 6.488281 71.078125 5.878906 23.039063 17.183594 41.507813 33.597656 54.894532 17.757813 14.476562 39.433594 22.589843 64.433594 24.109374 35.214844 2.144532 71.476562 3.144532 110.847656 3.046876zm-.953125-90.992188c-68.921875 0-125-56.074219-125-125s56.078125-125 125-125c68.925781 0 125 56.074219 125 125s-56.074219 125-125 125zm0-210c-46.867187 0-85 38.132812-85 85s38.132813 85 85 85c46.871094 0 85-38.132812 85-85s-38.128906-85-85-85zm139-80c-16.566406 0-30 13.429688-30 30s13.433594 30 30 30c16.570313 0 30-13.429688 30-30s-13.429687-30-30-30zm0 0"></path></svg>
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            <div class="join-us">
+                <div class="register btn-user">
+                    <a href="https://e2.edu.vn/register/">Đăng ký</a>
+                </div>
+
+                <div class="login btn-user">
+                    <a href="https://e2.edu.vn/login/">Đăng nhập</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+<!-- Page Content -->
+<div class="container-lager container">
+    <div class="category-page">#descontent# <p>#flink#</p></div>
+</div>
+<!-- /.row -->
+
+
+<!-- /.container -->
+<!-- Footer -->
+<footer class="mg-t-5">
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container-large container">
+                <div class="row">
+                                        <div class="col-lg-5 col-sm-12">
+                        <div class="footer-column">
+                            <div class="footer-logo mg-bt-3">
+                                                                                                    <img src="https://e2.edu.vn/wp-content/uploads/2021/04/dsadasd_03.png" alt="logo">
+                                                            </div>
+                            <h3>Everest Education</h3>
+                            <div class="footer-content">
+                                <ul class="ft-contact">
+                                                                            <li>
+                                            <a href="http://e2.edu.vn/tel:+84%20858%20323232">
+                                                <i class="fa fa-phone" aria-hidden="true"></i> +84 858 323232                                            </a>
+                                        </li>
+                                                                                                                <li>
+                                            <a href="http://e2.edu.vn/mailto:info@e2.com.vn">
+                                                <i class="fa fa-envelope-o" aria-hidden="true"></i> info@e2.com.vn                                            </a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        
+<p>#link3#</p>
+</div>
+                        <div class="footer-column">
+                            <h3>Our Learning Center</h3>
+                            <div class="footer-content">
+                                <ul>
+                                                                            <li>3rd Floor, 218 Nguyen Van Huong, Thao Dien, D.2</li>
+                                    
+                                                                            <li>04-06 Ton Dat Tien, Garden Plaza 2, Phu Mi Hung, Tan Phong, D.7</li>
+                                    
+                                                                            <li>2nd Floor, 670-672 Ba Thang Hai, W.14, D.10</li>
+                                    
+                                                                            <li>18 Street #1, Him Lam Area, Tan Hung, D.7</li>
+                                    
+                                                                            <li>35 Cong hoa, W.13, Tan Binh Dist.</li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="footer-column">
+                            <h3>Explore</h3>
+                            <div class="footer-content">
+                                <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="footer-menu">
+<li id="menu-item-348" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-348"><a href="https://e2.edu.vn/category/parents/">Parents</a></li>
+<li id="menu-item-319" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-319"><a href="https://e2.edu.vn/category/students/">Students</a></li>
+<li id="menu-item-324" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-324"><a href="https://e2.edu.vn/category/news/">News</a></li>
+<li id="menu-item-322" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-322"><a href="https://e2.edu.vn/category/ebook-and-free-printables/">Ebook and Free printables</a></li>
+<li id="menu-item-321" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321"><a href="https://e2.edu.vn/category/climbers-stories/">Climbers Stories</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-320"><a href="https://e2.edu.vn/category/video/">Video</a></li>
+<li id="menu-item-323" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-323"><a href="https://e2.edu.vn/category/podcast/" aria-current="page">Podcast</a></li>
+</ul></div>                            </div>
+                        </div>
+                    
+
+</div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="footer-column">
+                            <h3>Follow us on</h3>
+                            <div class="footer-content">
+                                <ul class="social">
+                                                                            <li>
+                                            <a href="http://e2.edu.vn/#">
+                                                <svg height="512pt" viewbox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m256 0c-141.160156 0-256 114.839844-256 256s114.839844 256 256 256 256-114.839844 256-256-114.839844-256-256-256zm-15 125.65625c-22.820312-.980469-45.410156-4.1875-66.980469-9.402344 3.445313-8.164062 7.183594-16.003906 11.214844-23.433594 16.539063-30.476562 36.84375-51.863281 55.765625-59.609374zm0 30.023438v85.320312h-93.691406c1.320312-33.300781 6.996094-66.359375 16.382812-96.429688 24.875 6.265626 50.988282 10.058594 77.308594 11.109376zm0 115.320312v85.320312c-26.320312 1.050782-52.433594 4.84375-77.308594 11.109376-9.386718-30.070313-15.0625-63.128907-16.382812-96.429688zm0 115.34375v92.445312c-18.921875-7.746093-39.226562-29.132812-55.765625-59.609374-4.03125-7.429688-7.769531-15.269532-11.214844-23.433594 21.570313-5.214844 44.15625-8.421875 66.980469-9.402344zm30 0c22.820312.980469 45.410156 4.1875 66.980469 9.402344-3.445313 8.164062-7.183594 16.003906-11.214844 23.433594-16.539063 30.476562-36.84375 51.863281-55.765625 59.609374zm0-30.023438v-85.320312h93.691406c-1.320312 33.300781-6.996094 66.359375-16.382812 96.429688-24.875-6.265626-50.988282-10.058594-77.308594-11.109376zm0-115.320312v-85.320312c26.320312-1.050782 52.433594-4.84375 77.308594-11.109376 9.386718 30.070313 15.0625 63.128907 16.382812 96.429688zm0-115.34375v-92.445312c18.921875 7.746093 39.226562 29.132812 55.765625 59.609374 4.03125 7.429688 7.769531 15.269532 11.214844 23.433594-21.570313 5.214844-44.160157 8.421875-66.980469 9.402344zm82.132812-47.144531c-7.511718-13.84375-15.671874-26.046875-24.273437-36.457031 29.992187 10.242187 57.160156 26.628906 80.007813 47.644531-13.03125 6.980469-27.074219 13.042969-41.847657 18.109375-4.191406-10.179688-8.824219-19.972656-13.886719-29.296875zm-194.265624 0c-5.0625 9.324219-9.695313 19.117187-13.886719 29.296875-14.773438-5.066406-28.816407-11.132813-41.847657-18.109375 22.847657-21.015625 50.015626-37.402344 80.007813-47.644531-8.601563 10.410156-16.757813 22.609374-24.273437 36.457031zm-24.035157 57.492187c-10.238281 32.753906-16.257812 68.460938-17.554687 104.996094h-86.765625c3.210937-48.753906 21.933593-93.339844 51.292969-128.832031 16.292968 9.34375 34.136718 17.335937 53.027343 23.835937zm-17.554687 134.996094c1.296875 36.539062 7.316406 72.242188 17.554687 104.996094-18.890625 6.5-36.734375 14.492187-53.027343 23.835937-29.359376-35.492187-48.082032-80.078125-51.292969-128.832031zm27.703125 133.191406c4.191406 10.179688 8.824219 19.972656 13.886719 29.296875 7.515624 13.84375 15.671874 26.046875 24.273437 36.457031-29.992187-10.242187-57.160156-26.628906-80.003906-47.644531 13.023437-6.976562 27.070312-13.042969 41.84375-18.109375zm208.152343 29.296875c5.0625-9.324219 9.695313-19.117187 13.886719-29.296875 14.773438 5.066406 28.816407 11.132813 41.847657 18.109375-22.847657 21.015625-50.015626 37.402344-80.007813 47.644531 8.601563-10.410156 16.757813-22.609374 24.273437-36.457031zm24.035157-57.492187c10.238281-32.753906 16.257812-68.460938 17.554687-104.996094h86.765625c-3.210937 48.753906-21.933593 93.339844-51.292969 128.832031-16.292968-9.34375-34.136718-17.335937-53.027343-23.835937zm17.554687-134.996094c-1.296875-36.539062-7.316406-72.242188-17.554687-104.996094 18.890625-6.5 36.734375-14.492187 53.027343-23.835937 29.359376 35.492187 48.082032 80.078125 51.292969 128.832031zm0 0"></path></svg>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="http://e2.edu.vn/#">
+                                                <svg id="Bold" enable-background="new 0 0 24 24" height="512" viewbox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"></path></svg>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="http://e2.edu.vn/#" class="icon-yt-hd">
+                                                <svg height="682pt" viewbox="-21 -117 682.66672 682" width="682pt" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0"></path></svg>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="http://e2.edu.vn/#">
+                                                <svg height="512pt" viewbox="0 0 512 512.00006" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m261.039062 512c-1.695312 0-3.390624 0-5.097656-.007812-40.132812.097656-77.214844-.921876-113.277344-3.117188-33.0625-2.011719-63.242187-13.4375-87.28125-33.039062-23.195312-18.914063-39.035156-44.488282-47.078124-76.003907-7-27.4375-7.371094-54.371093-7.726563-80.421875-.257813-18.691406-.5234375-40.839844-.578125-63.363281.0546875-22.617187.320312-44.765625.578125-63.457031.355469-26.046875.726563-52.980469 7.726563-80.421875 8.042968-31.515625 23.882812-57.089844 47.078124-76.003907 24.039063-19.601562 54.21875-31.027343 87.285157-33.039062 36.0625-2.191406 73.152343-3.2148438 113.371093-3.1171875 40.144532-.0859375 77.214844.9257815 113.277344 3.1171875 33.0625 2.011719 63.242188 13.4375 87.28125 33.039062 23.199219 18.914063 39.035156 44.488282 47.078125 76.003907 7 27.4375 7.371094 54.375 7.726563 80.421875.257812 18.691406.527344 40.839844.578125 63.363281v.09375c-.050781 22.523437-.320313 44.671875-.578125 63.363281-.355469 26.046875-.722656 52.980469-7.726563 80.421875-8.042969 31.515625-23.878906 57.089844-47.078125 76.003907-24.039062 19.601562-54.21875 31.027343-87.28125 33.039062-34.535156 2.101562-70.011718 3.125-108.277344 3.125zm-5.097656-40.007812c39.480469.09375 75.730469-.902344 110.945313-3.042969 25-1.519531 46.675781-9.632813 64.433593-24.113281 16.414063-13.386719 27.71875-31.855469 33.597657-54.894532 5.828125-22.839844 6.164062-47.363281 6.488281-71.078125.253906-18.566406.519531-40.558593.574219-62.863281-.054688-22.308594-.320313-44.296875-.574219-62.863281-.324219-23.714844-.660156-48.238281-6.488281-71.082031-5.878907-23.039063-17.183594-41.507813-33.597657-54.894532-17.757812-14.476562-39.433593-22.589844-64.433593-24.109375-35.214844-2.144531-71.464844-3.132812-110.851563-3.046875-39.472656-.09375-75.726562.902344-110.941406 3.046875-25 1.519531-46.675781 9.632813-64.433594 24.109375-16.414062 13.386719-27.71875 31.855469-33.597656 54.894532-5.828125 22.84375-6.164062 47.363281-6.488281 71.082031-.253907 18.582031-.519531 40.585937-.574219 62.910156.054688 22.226563.320312 44.234375.574219 62.816406.324219 23.714844.660156 48.238281 6.488281 71.078125 5.878906 23.039063 17.183594 41.507813 33.597656 54.894532 17.757813 14.476562 39.433594 22.589843 64.433594 24.109374 35.214844 2.144532 71.476562 3.144532 110.847656 3.046876zm-.953125-90.992188c-68.921875 0-125-56.074219-125-125s56.078125-125 125-125c68.925781 0 125 56.074219 125 125s-56.074219 125-125 125zm0-210c-46.867187 0-85 38.132812-85 85s38.132813 85 85 85c46.871094 0 85-38.132812 85-85s-38.128906-85-85-85zm139-80c-16.566406 0-30 13.429688-30 30s13.433594 30 30 30c16.570313 0 30-13.429688 30-30s-13.429687-30-30-30zm0 0"></path></svg>
+                                            </a>
+                                        </li>
+                                                                    </ul>
+                                <p>
+                                    @ 2020 Everest Education
+                                </p>
+                            </div>
+
+                                                    
+<p>#link4#</p>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <li id="text-2" class="widget widget_text">			<div class="textwidget">
+<p>Contact Us For Program Inquires &amp; Registration   <a class="footer-register" href="http://localhost:8888/e2Blog/register/">Register</a></p>
+</div>
+		</li>
+        </div>
+    </div>
+</footer>
+<div class="backtotop-btn" id="backtotop-btn">
+    <div class="backtotop-icon">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </div>
+</div>
+<!-- Bootstrap core JavaScript -->
+<script src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/library/jquery.min.js"></script>
+<script src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/library/bootstrap.min.js"></script>
+<script src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/slick/slick.js"></script>
+<script src="https://e2.edu.vn/wp-content/themes/theme-e2Blog/js/main.js"></script>
+
+<script type='text/javascript' src='https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://e2.edu.vn/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://e2.edu.vn/wp-includes/js/dist/hooks.min.js?ver=50e23bed88bcb9e6e14023e9961698c1' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://e2.edu.vn/wp-includes/js/dist/i18n.min.js?ver=db9a9a37da262883343e941c3731bc67' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' src='https://e2.edu.vn/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19' id='lodash-js'></script>
+<script type='text/javascript' id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script>
+<script type='text/javascript' src='https://e2.edu.vn/wp-includes/js/dist/url.min.js?ver=0ac7e0472c46121366e7ce07244be1ac' id='wp-url-js'></script>
+<script type='text/javascript' id='wp-api-fetch-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type='text/javascript' src='https://e2.edu.vn/wp-includes/js/dist/api-fetch.min.js?ver=a783d1f442d2abefc7d6dbd156a44561' id='wp-api-fetch-js'></script>
+<script type='text/javascript' id='wp-api-fetch-js-after'>
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://e2.edu.vn/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "b58e9dc4ad" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://e2.edu.vn/wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://e2.edu.vn/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://e2.edu.vn/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+</body>
+
+</html>
