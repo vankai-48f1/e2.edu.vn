@@ -28,7 +28,7 @@
                                     </div>
                                     <div class="article-cate mg-bt-1">
                                         <div class="mdp-flex">
-                                            <p>&ensp;<i class="fa fa-circle cl-green" aria-hidden="true"></i>&ensp;<?php echo get_the_date('F j, Y') ?>&nbsp;|&nbsp;</p>
+                                            <p>&ensp;<i class="fa fa-circle cl-green" aria-hidden="true"></i> <?php echo get_the_date('F j, Y') ?></p>
                                             <?php echo the_category(); ?>
                                         </div>
                                     </div>

@@ -47,6 +47,7 @@
                                     <div class="col-lg-9">
                                         <div class="single-content mg-bt-2">
                                             <?php the_content() ?>
+                                            <?php  the_field('test_editor') ?>
                                         </div>
                                         <hr>
                                         <div class="sg-tabs-ct">
@@ -56,7 +57,7 @@
                                             if (have_rows('tabs_single')) :;
                                                 while (have_rows('tabs_single')) : the_row();
                                                     $num++;
-                                                    $content_tabs_single = get_sub_field('content_tabs_single');
+                                                    $content_tabs_single = get_sub_field('content_tabs_single', false);
                                                     $show_block_course = get_sub_field('show_block_course_after');
                                             ?>
                                                     <div class="tabs-ct <?php echo $num == 1 ? 'active' : null ?>" id="tabs-<?php echo $num ?>">
@@ -396,3 +397,4 @@
         }, 100)
     })
 </script>
+
