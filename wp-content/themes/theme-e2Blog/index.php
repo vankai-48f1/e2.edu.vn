@@ -224,7 +224,7 @@ Template Name: Home
     <section class="obj-animate">
         <div class="course">
             <div class="title-cource text-center mg-bt-3">
-                <h2><?php echo get_field('course_popup_title', 'option'); ?></h2>
+                <h2><?php echo get_field('course_popup_title', 'option');?></h2>
                 <h3><?php echo get_field('course_popup_subtitle', 'option'); ?></h3>
             </div>
 
@@ -272,8 +272,8 @@ Template Name: Home
                 </div>
             </div>
             <div class="link-course text-center">
-                <?php
-                $course_popup_link = get_field('course_popup_link', 'option');
+                <?php 
+                $course_popup_link = get_field('course_popup_link', 'option'); 
                 ?>
                 <a target="_blank" href="<?php echo esc_url($course_popup_link['url']) ?>"><?php echo esc_html($course_popup_link['title']) ?></a>
             </div>

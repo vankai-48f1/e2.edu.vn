@@ -444,7 +444,7 @@ if( function_exists('acf_add_options_page') ) {
 
 
 
-if ( !class_exists( 'My_Custom_Walker_Comment' ) ) {
+if ( !class_exists( 'WPSE_Walker_Comment' ) ) {
 
     /**
      * Custom comment walker
@@ -556,33 +556,3 @@ if ( !class_exists( 'My_Custom_Walker_Comment' ) ) {
     }
     
 } // end of '!class_exists' condition
-
-
-// Custom RSS
-
-add_action('init', 'customRSS');
-function customRSS(){
-        add_feed('feedname', 'customRSSFunc');
-}
-
-function customRSSFunc(){
-    get_template_part('rss', 'feedname');
-}
-
-// function rssLanguage(){
-//     update_option('rss_language', 'vi');
-// }
-// add_action('admin_init', 'rssLanguage');
-
-// add_filter('the_excerpt_rss', 'wpm_rss_post_thumbnail');
-// add_filter('the_content_feed', 'wpm_rss_post_thumbnail');
-
-// function wpm_rss_post_thumbnail($content) {
-// 	global $post;
-// 	$content ='';
-
-// 	if(has_post_thumbnail($post->ID)) {
-// 		$content = '<p class="my-image">' . get_the_post_thumbnail($post->ID , 'full') . '</p>' . get_the_excerpt();
-// 	}
-// 	return $content;
-// }

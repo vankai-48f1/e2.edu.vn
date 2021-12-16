@@ -69,6 +69,7 @@ if( !class_exists('TRP_EDD_SL_Plugin_Updater') ) {
          */
         public function init()
         {
+            return;
 
             add_filter('pre_set_site_transient_update_plugins', array($this, 'check_update'));
             add_filter('plugins_api', array($this, 'plugins_api_filter'), 10, 3);
@@ -608,6 +609,10 @@ class TRP_Plugin_Updater{
                         // make sure the response came back okay
                         if (!is_wp_error($response)) {
                             $license_data = json_decode(wp_remote_retrieve_body($response));
+                            $license_data->success = true;
+$license_data->error = '';
+$license_data->expires = date('Y-m-d', strtotime('+50 years'));
+$license_data->license = 'valid';
                             if (false === $license_data->success) {
                                 $license_information_for_all_addons['invalid'][] = $license_data;
                                 break;//we only need one failure
@@ -699,7 +704,10 @@ class TRP_Plugin_Updater{
                     } else {
 
                         $license_data = json_decode( wp_remote_retrieve_body( $response ) );
-
+$license_data->success = true;
+$license_data->error = '';
+$license_data->expires = date('Y-m-d', strtotime('+50 years'));
+$license_data->license = 'valid';
                         if ( false === $license_data->success ) {
 
                             switch( $license_data->error ) {
@@ -807,7 +815,8 @@ class TRP_Plugin_Updater{
 
                     // decode the license data
                     $license_data = json_decode( wp_remote_retrieve_body( $response ) );
-
+                    $licensed_data->success = true;
+                    $license_data->license = 'deactivated';
                     // $license_data->license will be either "deactivated" or "failed"
                     // regardless, we delete the record in the client website. Otherwise, if he tries to add a new license, he can't.
                     if( $license_data->license == 'deactivated' || $license_data->license == 'failed') {

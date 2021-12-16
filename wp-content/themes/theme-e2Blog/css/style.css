@@ -1705,6 +1705,16 @@ a, p, ul, li {
   margin-bottom: 30px;
 }
 
+.banner-sidebar a[target = '_blank'] {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.banner-sidebar > a {
+    display: block;
+    margin-bottom: 30px;
+}
+
 .banner-sidebar img {
   display: block;
   border-radius: 10px;

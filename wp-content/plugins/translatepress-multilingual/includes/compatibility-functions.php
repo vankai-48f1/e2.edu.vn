@@ -44,7 +44,7 @@ add_filter( 'nav_menu_link_attributes', 'trp_remove_html_from_menu_title', 10, 3
 function trp_remove_html_from_menu_title( $atts, $item, $args ){
     if( isset( $atts['title'] ) )
         $atts['title'] = wp_strip_all_tags($atts['title']);
-
+        
     return $atts;
 }
 
@@ -58,7 +58,7 @@ function trp_remove_html_from_menu_title( $atts, $item, $args ){
  * @param string $more      Optional. What to append if $text needs to be trimmed. Default '&hellip;'.
  * @return string Trimmed text.
  */
-function trp_wp_trim_words( $text, $num_words, $more, $original_text ) {
+function trp_wp_trim_words( $text, $num_words = 55, $more = null, $original_text ) {
     if ( null === $more ) {
         $more = __( '&hellip;' );
     }
@@ -1043,7 +1043,7 @@ function trp_rtcl_autocomplete_search_results( $args, $request ){
 add_action( 'wp_body_open', 'trp_overrule_main_query_condition', 10, 2 );
 function trp_overrule_main_query_condition(){
     if ( class_exists('Rtcl') ) {
-        add_filter( 'trp_wrap_with_post_id_overrule', '__return_false' );
+        add_filter( 'trp_wrap_with_post_id_overrule', __return_false() );
     }
 }
 
@@ -1513,20 +1513,3 @@ function trp_exclude_dokan_date_strings($return, $translation, $text, $domain) {
     }
     return $return;
 }
-
-function trp_add_language_to_pms_wppb_restriction_redirect_url( $redirect_url ){
-
-    global $TRP_LANGUAGE;
-
-    $trp = TRP_Translate_Press::get_trp_instance();
-    $url_converter = $trp->get_component('url_converter');
-
-    return $url_converter->get_url_for_language( $TRP_LANGUAGE, $redirect_url, '' );
-
-}
-
-if( defined( 'PMS_VERSION' ) )
-    add_filter( 'pms_restricted_post_redirect_url', 'trp_add_language_to_pms_wppb_restriction_redirect_url' );
-
-if( function_exists( 'wppb_plugin_init' ) )
-    add_filter( 'wppb_restricted_post_redirect_url', 'trp_add_language_to_pms_wppb_restriction_redirect_url' );

@@ -5,7 +5,7 @@ Tags: translate, translation, multilingual, automatic translation, bilingual, fr
 Requires at least: 3.1.0
 Tested up to: 5.7.2
 Requires PHP: 5.6.20
-Stable tag: 2.0.3
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -139,13 +139,6 @@ For more information please check out our [documentation](https://translatepress
 
 
 == Changelog ==
-= 2.0.3 =
-* Added compatibility with PHP 8
-* Added compatibility with Profile Builder Content Restriction redirect URL
-* Added compatibility with Paid Member Subscription Content Restriction redirect URL
-* Added filter to skip admin check on add_language_to_home_url
-* Fixed some cases of PHP errors
-
 = 2.0.2 =
 * Fixed WooCommerce permalink issues
 * Fixed notice about language switcher in Menus
