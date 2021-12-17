@@ -4,7 +4,7 @@
     <div class="category-page">
         <div class="page-header">
             <h1 class="category-title">
-                <?php single_cat_title() ?>
+                <?php single_cat_title(); ?>
             </h1>
             <?php
             if (category_description()) : ?>
@@ -18,35 +18,74 @@
             <?php if (have_posts()) : ?>
                 <div class="category-ctn">
                     <div class="article-list">
-                        <?php while (have_posts()) : the_post(); ?>
-                            <div class="article-item pd-bt-1 mg-bt-3 eff-fourth obj-animate">
-                                <article>
-                                    <div class="article-thumb mg-bt-1">
-                                        <a href="<?php the_permalink() ?>" class="">
-                                            <?php the_post_thumbnail() ?>
-                                        </a>
+                        <?php
+                        $count = 0;
+                        while (have_posts()) : the_post();
+                            if (!e2_language_vi()) {
+                                if (!e2post_is_vi()) { ?>
+                                    <div class="article-item pd-bt-1 mg-bt-3 eff-fourth obj-animate">
+                                        <article>
+                                            <div class="article-thumb mg-bt-1">
+                                                <a href="<?php the_permalink() ?>" class="">
+                                                    <?php the_post_thumbnail() ?>
+                                                </a>
+                                            </div>
+                                            <div class="article-cate mg-bt-1">
+                                                <div class="mdp-flex">
+                                                    <p>&ensp;<i class="fa fa-circle cl-green" aria-hidden="true"></i>&ensp;<?php echo get_the_date('F j, Y') ?>&nbsp;|&nbsp;</p>
+                                                    <?php echo the_category(); ?>
+                                                </div>
+                                            </div>
+                                            <h3>
+                                                <a href="<?php the_permalink() ?>" class="title-type-four">
+                                                    <?php the_title() ?>
+                                                </a>
+                                            </h3>
+                                            <div class="description">
+                                                <?php the_excerpt() ?>
+                                            </div>
+                                            <div class="btn-read-more">
+                                                <a href="<?php the_permalink() ?>" class="post-link eff-primary">
+                                                    read more
+                                                </a>
+                                            </div>
+                                        </article>
                                     </div>
-                                    <div class="article-cate mg-bt-1">
-                                        <div class="mdp-flex">
-                                            <p>&ensp;<i class="fa fa-circle cl-green" aria-hidden="true"></i>&ensp;<?php echo get_the_date('F j, Y') ?>&nbsp;|&nbsp;</p>
-                                            <?php echo the_category(); ?>
+                                <?php }
+                            } else {
+                                ?>
+                                <div class="article-item pd-bt-1 mg-bt-3 eff-fourth obj-animate">
+                                    <article>
+                                        <div class="article-thumb mg-bt-1">
+                                            <a href="<?php the_permalink() ?>" class="">
+                                                <?php the_post_thumbnail() ?>
+                                            </a>
                                         </div>
-                                    </div>
-                                    <h3>
-                                        <a href="<?php the_permalink() ?>" class="title-type-four">
-                                            <?php the_title() ?>
-                                        </a>
-                                    </h3>
-                                    <div class="description">
-                                        <?php the_excerpt() ?>
-                                    </div>
-                                    <div class="btn-read-more">
-                                        <a href="<?php the_permalink() ?>" class="post-link eff-primary">
-                                            read more
-                                        </a>
-                                    </div>
-                                </article>
-                            </div>
+                                        <div class="article-cate mg-bt-1">
+                                            <div class="mdp-flex">
+                                                <p>&ensp;<i class="fa fa-circle cl-green" aria-hidden="true"></i>&ensp;<?php echo get_the_date('F j, Y') ?>&nbsp;|&nbsp;</p>
+                                                <?php echo the_category(); ?>
+                                            </div>
+                                        </div>
+                                        <h3>
+                                            <a href="<?php the_permalink() ?>" class="title-type-four">
+                                                <?php the_title() ?>
+                                            </a>
+                                        </h3>
+                                        <div class="description">
+                                            <?php the_excerpt() ?>
+                                        </div>
+                                        <div class="btn-read-more">
+                                            <a href="<?php the_permalink() ?>" class="post-link eff-primary">
+                                                read more
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
+                            <?php
+                            }
+                            ?>
+
                         <?php endwhile; ?>
                     </div>
                 </div>
