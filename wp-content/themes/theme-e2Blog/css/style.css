@@ -436,7 +436,6 @@ li {
 
 .ctn-topMenu.fixed {
   position: fixed;
-  
 }
 
 .ctn-topMenu > div {
@@ -3019,7 +3018,7 @@ td {
 }
 
 .translate-language .trp-language-switcher {
-    z-index: 110;
+  z-index: 110;
 }
 
 .translate-language .trp-language-switcher > div {
@@ -3172,4 +3171,25 @@ td {
 
 .comment-form-block .comment .children {
   padding-left: 50px;
+}
+
+/* ---- Banner Top ----- */
+.banner-top-hd__inner {
+  margin: 0 -15px;
+}
+
+.banner-top-hd__img-wrap {
+  position: relative;
+  padding-top: 19.083%;
+  overflow: hidden;
+}
+
+.banner-top-hd__img-wrap img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+  object-position: top;
 }
