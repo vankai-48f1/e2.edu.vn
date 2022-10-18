@@ -552,7 +552,7 @@ if (!class_exists('WPSE_Walker_Comment')) {
                     <?php if ('div' !== $args['style']) : ?>
                     </div>
                 <?php endif; ?>
-    <?php
+            <?php
         }
     }
 } // end of '!class_exists' condition
@@ -581,7 +581,8 @@ function e2post_is_vi()
 }
 
 
-function e2_language_vi() {
+function e2_language_vi()
+{
     $url      = trim($_SERVER['REQUEST_URI']);
     $url_data = explode('/', $url);
 
@@ -589,19 +590,37 @@ function e2_language_vi() {
         foreach ($url_data as $value) {
 
             // kiểm tra ngôn ngữ tiếng việt hiện tại của trang bằng đường dẫn
-            if($value === "vi") {
+            if ($value === "vi") {
                 return  true;
             }
         }
         // không phải tiếng việt 
         return false;
-    } 
+    }
 }
 
+/* Custom script with no dependencies, enqueued in the footer */
+add_action('wp_footer', 'e2_single_script');
+function e2_single_script()
+{
+    if (is_single()) { ?>
+            <script>
+                const elementCourse = document.querySelectorAll('.tabs-ct .course');
+                const blockCourse = document.querySelector('.tabs-ct');
 
+                elementCourse.forEach(itemCourse => {
+                    courseCoordinatesX = blockCourse.getBoundingClientRect().left;
+                    itemCourse.style.left = '-' + courseCoordinatesX + 'px';
+                })
 
-// echo $tiengviet;
-
-// echo "</br> số ký tự có dấu là:";
-
-// echo vn_num_acc_char($tiengviet);
+                window.addEventListener('resize', function() {
+                    setTimeout(function() {
+                        elementCourse.forEach(itemCourse => {
+                            courseCoordinatesX = blockCourse.getBoundingClientRect().left;
+                            itemCourse.style.left = '-' + courseCoordinatesX + 'px';
+                        })
+                    }, 100)
+                })
+            </script>
+    <?php }
+}

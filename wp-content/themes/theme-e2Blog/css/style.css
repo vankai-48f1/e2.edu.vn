@@ -422,6 +422,7 @@ li {
   border-bottom: 1px solid #000;
   position: relative;
   top: 0;
+  left: 0;
   width: 100%;
   padding-top: 20px;
   background-color: #fff;
@@ -3174,6 +3175,10 @@ td {
 }
 
 /* ---- Banner Top ----- */
+.banner-top-hd {
+  overflow: hidden;
+}
+
 .banner-top-hd__inner {
   margin: 0 -15px;
 }
@@ -3192,4 +3197,129 @@ td {
   left: 0;
   object-fit: contain;
   object-position: top;
+}
+
+/* Form register free class */
+
+.register-free-class {
+  padding: 35px 25px;
+  background-color: #191a1c;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 576px) {
+  .register-free-class {
+    padding: 35px 50px;
+  }
+}
+
+.register-free-class__title {
+  text-align: center;
+  font-size: 23px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.register-free-class .wpcf7 .ajax-loader,
+.register-free-class .wpcf7-spinner {
+  display: none;
+}
+
+.register-free-class input,
+.register-free-class select {
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #555658;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  padding: 8px 15px;
+  color: #fff;
+  font-weight: 400;
+  background-color: #191a1c;
+}
+
+.register-free-class input::placeholder {
+  color: #555658;
+}
+
+.register-free-class input[type="submit"] {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 15px;
+  background-color: #bb8e30;
+  -webkit-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+
+.register-free-class input[type="submit"]:hover {
+  background-color: #f8b40d;
+  color: #fff;
+}
+
+.register-free-class label {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
+.register-free-class select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 9px;
+}
+
+.register-free-class .wpcf7-form-control-wrap {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.register-free-class form p br {
+  display: none;
+}
+
+.register-free-class .school-label::after {
+  content: "*";
+  color: red;
+  padding-left: 0.2em;
+}
+
+.register-free-class .wpcf7-response-output {
+  color: #fff;
+}
+
+.menu-switch .header-ctn {
+  visibility: hidden;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  -ms-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+}
+
+.menu-switch .ctn-topMenu {
+  position: fixed;
+  transition: all 250ms linear;
+  -webkit-transition: all 250ms linear;
+}
+
+#header-main {
+  z-index: 900;
+  width: 100%;
+}
+
+.header-main__inner {
+  padding-bottom: 3rem;
 }

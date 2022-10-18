@@ -28,50 +28,117 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/slick/slick-theme.css">
 
     <?php wp_head() ?>
-    
+
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KR896L');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KR896L');
+    </script>
     <!-- End Google Tag Manager -->
-    
+
     <!-- Facebook Pixel Code -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1130878716983919');
-      fbq('track', 'PageView');
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1130878716983919');
+        fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1130878716983919&ev=PageView&noscript=1"
-    /></noscript>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1130878716983919&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KR896L"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KR896L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <script>
-      fbq('track', 'ViewContent');
+        fbq('track', 'ViewContent');
     </script>
-    
+
+    <!-- Banner VI -->
+    <?php if (have_rows('banner_top_vi', 'option') && get_locale() == 'vi') : ?>
+        <div class="banner-top-hd">
+            <div class="banner-top-hd__inner">
+                <div class="container-large container banner-top-hd__slider">
+                    <?php while (have_rows('banner_top_vi', 'option')) : the_row();
+                        $image = get_sub_field('image');
+                        $link = get_sub_field('link');
+                    ?>
+                        <div class="banner-top-hd__item">
+                            <?php if ($image) : ?>
+                                <div class="banner-top-hd__img-wrap">
+                                    <a class="banner-top-hd__link" href="<?php echo $link ? $link['url'] : '#'; ?>" title="<?php echo $link && $link['title'] ? $link['title'] : ''; ?>">
+                                        <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['title'] ?>">
+                                    </a>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    <?php endwhile; ?>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
+
+    <!-- Banner EN -->
+    <?php if (have_rows('banner_top_en', 'option') && get_locale() == 'en_US') : ?>
+        <div class="banner-top-hd">
+            <div class="banner-top-hd__inner">
+                <div class="container-large container banner-top-hd__slider">
+                    <?php while (have_rows('banner_top_en', 'option')) : the_row();
+                        $image = get_sub_field('image');
+                        $link = get_sub_field('link');
+                    ?>
+                        <div class="banner-top-hd__item">
+                            <?php if ($image) : ?>
+                                <div class="banner-top-hd__img-wrap">
+                                    <a class="banner-top-hd__link" href="<?php echo $link ? $link['url'] : '#'; ?>" title="<?php echo $link && $link['title'] ? $link['title'] : ''; ?>">
+                                        <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['title'] ?>">
+                                    </a>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    <?php endwhile; ?>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
+
+    <!-- Header -->
     <div class="header">
         <div class="header-mb-top">
             <ul class="header-mb-contact">
                 <?php
-                    $phone = get_theme_mod('Phone');
-                    $email = get_theme_mod('Email');
-                 if (!empty($phone)) { ?>
+                $phone = get_theme_mod('Phone');
+                $email = get_theme_mod('Email');
+                if (!empty($phone)) { ?>
                     <li>
                         <a href="tel:<?php echo $phone ?>">
                             <i class="fa fa-phone" aria-hidden="true"></i>&ensp;<?php echo $phone ?>
@@ -108,7 +175,7 @@
                         <div class="search" style="display: none">
                             <form method="GET" action="<?php bloginfo('url'); ?>">
                                 <div class="input-group">
-                                    <input type="hidden" name="post_type" value="post"> 
+                                    <input type="hidden" name="post_type" value="post">
                                     <input type="text" class="input-search" value="<?php the_search_query(); ?>" name="s" placeholder="Search ..." id="search-post">
                                     <span class="input-group-btn mdp-none">
                                         <button class="btn btn-secondary" type="submit">Go!</button>
@@ -194,7 +261,7 @@
                     <div class="search">
                         <form method="GET" action="<?php bloginfo('url'); ?>">
                             <div class="input-group">
-                                <input type="hidden" name="post_type" value="post"> 
+                                <input type="hidden" name="post_type" value="post">
                                 <input type="text" class="input-search" value="<?php the_search_query(); ?>" name="s" placeholder="Search ..." id="search-post">
                                 <span class="input-group-btn mdp-none">
                                     <button class="btn btn-secondary" type="submit">Go!</button>
@@ -232,7 +299,7 @@
             <div class="search mg-t-1 mg-bt-1">
                 <form method="GET" action="<?php bloginfo('url'); ?>">
                     <div class="input-group">
-                        <input type="hidden" name="post_type" value="post"> 
+                        <input type="hidden" name="post_type" value="post">
                         <input type="text" class="input-search" value="<?php the_search_query(); ?>" name="s" placeholder="Search ..." id="search-post">
                         <button class="button-icon" type="submit"><img src="<?php echo get_template_directory_uri() ?>/images/search.svg" alt="search"></button>
                     </div>

@@ -70,8 +70,54 @@
                                                                     <h3><?php echo get_field('course_popup_subtitle', 'option'); ?></h3>
                                                                 </div>
 
-                                                                <!-- List Course -->
-                                                                <?php get_template_part('template-parts/content', 'course') ?>
+                                                                <div class="ctn-course">
+                                                                    <div class="list-course">
+                                                                        <?php
+                                                                        $argsCourse  = array(
+                                                                            'post_type' => 'post',
+                                                                            'post_status' => 'publish',
+                                                                            'cat' => 6,
+                                                                            'orderby' => 'date',
+                                                                            'order' => 'ASC',
+                                                                            'showposts' => 6
+                                                                        );
+                                                                        $articleCourse = new WP_Query($argsCourse);
+                                                                        $i = 0;
+                                                                        if ($articleCourse->have_posts()) :
+                                                                            while ($articleCourse->have_posts()) : $articleCourse->the_post();
+                                                                                $i++;
+                                                                                $arr_course = get_field('link_course');
+                                                                                if ($arr_course) :
+                                                                        ?>
+                                                                                    <div class="course-item">
+                                                                                        <article class="pd-bt-2">
+                                                                                            <div class="course-thumb">
+                                                                                                <a href="<?php echo esc_url($arr_course['url']) ?>" target="_blank">
+                                                                                                    <?php the_post_thumbnail() ?>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <a class="wrap-course-title" href="<?php echo esc_url($arr_course['url']) ?>" target="_blank">
+                                                                                                <h3 class="course-title <?php echo 'course-title-' . $i; ?>">
+                                                                                                    <span class="cl-white"><?php the_title() ?></span>
+                                                                                                </h3>
+                                                                                                <div class="fill-bg-title <?php echo 'fill-bg-title-' . $i; ?>"></div>
+                                                                                            </a>
+                                                                                        </article>
+                                                                                    </div>
+                                                                        <?php endif;
+                                                                            endwhile;
+                                                                        endif;
+                                                                        // Reset Post Data
+                                                                        wp_reset_postdata();
+                                                                        ?>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="link-course text-center">
+                                                                    <?php
+                                                                    $course_popup_link = get_field('course_popup_link', 'option');
+                                                                    ?>
+                                                                    <a target="_blank" href="<?php echo esc_url($course_popup_link['url']) ?>"><?php echo esc_html($course_popup_link['title']) ?></a>
+                                                                </div>
                                                             </div>
                                                         <?php endif; ?>
 
@@ -91,17 +137,6 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12">
-                            <!-- Form Register Free Class -->
-                            <?php
-                            $form_register_free_class = get_field('form_register_free_class', 'option');
-
-                            if ($form_register_free_class) : ?>
-                                <div class="register-free-class">
-                                    <h3 class="register-free-class__title">Register For A Free Trial Class</h3>
-                                    <?php echo do_shortcode($form_register_free_class); ?>
-                                </div>
-                            <?php endif; ?>
-
                             <div class="banner-sidebar">
                                 <?php
                                 global $post;
@@ -133,8 +168,48 @@
 
                             </div>
 
-                            <!-- Related Articles -->
-                            <?php get_template_part('template-parts/related', 'articles') ?>
+                            <div class="related">
+                                <h3 class="mg-bt-1">Top articles</h3>
+                                <?php
+                                $cats = wp_get_post_categories(get_the_ID(), array('fields' => 'slugs'));
+                                $cats_id_related = wp_get_post_categories(get_the_ID(), array('fields' => 'ids'));
+                                $cats[0];
+                                $cats_id_related[0];
+                                $id_current_post = $cats = $post->ID;
+
+
+                                $args_related = array(
+                                    'post_type' => 'post',
+                                    'order' => 'DESC',
+                                    // 'orderby' => 'rand',
+                                    // 'category_name' => $cats[0],
+                                    'post__not_in'  => array($id_current_post),
+                                    // 'cat' => $cats_id_related[0],
+                                    'showposts' => 4
+                                );
+                                $query_post_related = new WP_Query($args_related);
+
+                                // The Loop
+                                if ($query_post_related->have_posts()) :
+                                    while ($query_post_related->have_posts()) : $query_post_related->the_post(); ?>
+                                        <div class="related-item">
+                                            <a href="<?php the_permalink() ?>" class="related-thumb">
+                                                <?php the_post_thumbnail() ?>
+                                            </a>
+                                            <div class="related-name">
+                                                <a href="<?php the_permalink() ?>" class="title-type-third cl-black">
+                                                    <?php the_title() ?>
+                                                </a>
+                                                <div class="related-parent mdp-flex mflex-wrap">
+                                                    <i class="fa fa-circle cl-dark-orange" aria-hidden="true"></i>&ensp;<?php echo the_category() ?>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                <?php endwhile;
+                                endif;
+                                wp_reset_postdata(); ?>
+                            </div>
 
                             <div class="banner-sidebar">
                                 <?php
@@ -163,24 +238,11 @@
         <?php endif; ?>
     </div>
 
-    <!-- Mobile -->
     <div class="container-lager container">
-        <!-- Form Register Free Class -->
-        <?php
-        $form_register_free_class = get_field('form_register_free_class', 'option');
-
-        if ($form_register_free_class) : ?>
-            <div class="register-free-class">
-                <h3 class="register-free-class__title">Register For A Free Trial Class</h3>
-                <?php echo do_shortcode($form_register_free_class); ?>
-            </div>
-        <?php endif; ?>
-        
-        <!-- Section Mobile -->
         <div class="related-mb">
             <div class="banner-sidebar">
                 <?php
-                $groupIdBelongTo    = [];
+                 $groupIdBelongTo    = [];
                 foreach ($banners_belong_to as $item) :
                     $banner     = $item['banner']['url'];
                     $redirect   = $item['redirect'];
@@ -202,8 +264,48 @@
 
             </div>
 
-            <!-- Related Articles -->
-            <?php get_template_part('template-parts/related', 'articles') ?>
+            <div class="related">
+                <h3 class="mg-bt-1">Top articles</h3>
+                <?php
+                $cats = wp_get_post_categories(get_the_ID(), array('fields' => 'slugs'));
+                $cats_id_related = wp_get_post_categories(get_the_ID(), array('fields' => 'ids'));
+                $cats[0];
+                $cats_id_related[0];
+                $id_current_post = $cats = $post->ID;
+
+
+                $args_related = array(
+                    'post_type' => 'post',
+                    'order' => 'DESC',
+                    // 'orderby' => 'rand',
+                    // 'category_name' => $cats[0],
+                    'post__not_in'  => array($id_current_post),
+                    // 'cat' => $cats_id_related[0],
+                    'showposts' => 4
+                );
+                $query_post_related = new WP_Query($args_related);
+
+                // The Loop
+                if ($query_post_related->have_posts()) :
+                    while ($query_post_related->have_posts()) : $query_post_related->the_post(); ?>
+                        <div class="related-item">
+                            <a href="<?php the_permalink() ?>" class="related-thumb">
+                                <?php the_post_thumbnail() ?>
+                            </a>
+                            <div class="related-name">
+                                <a href="<?php the_permalink() ?>" class="title-type-third cl-black">
+                                    <?php the_title() ?>
+                                </a>
+                                <div class="related-parent mdp-flex mflex-wrap">
+                                    <i class="fa fa-circle cl-dark-orange" aria-hidden="true"></i>&ensp;<?php echo the_category() ?>
+                                </div>
+                            </div>
+
+                        </div>
+                <?php endwhile;
+                endif;
+                wp_reset_postdata(); ?>
+            </div>
 
             <div class="banner-sidebar">
                 <?php
@@ -226,7 +328,6 @@
         </div>
     </div>
 
-    <!-- Section - Your might find interested -->
     <div class="interested obj-animate">
         <div class="container-large container">
             <h3 class="title-interested title-post mg-bt-2">Your might find interested</h3>
@@ -277,3 +378,21 @@
 </div>
 <!-- /.container -->
 <?php get_footer() ?>
+<script>
+    var elementCourse = document.querySelectorAll('.tabs-ct .course');
+    var blockCourse = document.querySelector('.tabs-ct');
+
+    elementCourse.forEach(itemCourse => {
+        courseCoordinatesX = blockCourse.getBoundingClientRect().left;
+        itemCourse.style.left = '-' + courseCoordinatesX + 'px';
+    })
+
+    window.addEventListener('resize', function() {
+        setTimeout(function() {
+            elementCourse.forEach(itemCourse => {
+                courseCoordinatesX = blockCourse.getBoundingClientRect().left;
+                itemCourse.style.left = '-' + courseCoordinatesX + 'px';
+            })
+        }, 100)
+    })
+</script>
